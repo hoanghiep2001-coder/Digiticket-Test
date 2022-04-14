@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiticket</title>
+    <link rel="stylesheet" href="../Content/css/main.css">
+    <link rel="stylesheet" href="../Content/plugin/rangeslider.js-develop/dist/rangeslider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Content/plugin/bootstrap-4.6.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../Content/plugin/daterangepicker-master/daterangepicker.css">
+    <link rel="stylesheet" href="../Content/plugin/datepicker/css/daterangepicker.css">
+    <link rel="stylesheet" href="../Content/plugin/datepicker/css/custom.css">
+    <link rel="stylesheet" href="../Content/icomoon/style.css">
+    <link rel="icon" href="../Content/image/home/Group 12854 1.svg">
+    <link rel="stylesheet" href="../Content/css/common.css">
+    <link rel="stylesheet" href="../Content/css/home.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__container container">
+                <!-- logo -->
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="../Content/image/home/Logo.png" alt="" />
+                    </a>
+                </div>
+                <!-- search Bar -->
+                <form action="" class="header-search-Bar">
+                    <input autocomplete="off" name="searchBar" placeholder="Tìm kiếm trên Digiticket" type="text" class="header-with-search" />
+                    <button type="submit" class="right"> 
+                        <span class="icon-search"></span>
+                    </button>
+                </form>
+                <div class="header-user">
+                    <!-- account -->
+                    <div class="header-account">
+                        <img src="../Content/image/home/avatar.jpg" alt="" />
+                        <div class="header-account-assets">
+                            <p>Tài khoản</p>
+                            <a href="#" class="text-truncate ">lien.ng281213123213</a>
+                        </div>
+                    </div>
+                    <!-- cart -->
+                    <div class="header-cart">
+                        <div class="ti-shopping-cart">
+                            <img class="" src="../Content/image/home/icon/shopping-cart.svg">
+                            <p>0</p>
+                        </div>
+                        <p>Giỏ hàng</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu bar -->
+            <div class="header__subnav">
+                <div class="header__subnav-container container">
+                    <div class="header__subnav-container-bars">
+                        <span class="icon-bar">
+                            <ul class="header__subnav-container-bars-list">
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Lưu trú</p>
+                                    <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Khách sạn /Resort
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Villa/Căn hộ
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Du thuyền
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Homestay
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Giải trí</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                              header__subnav-container-bars-list-item-sub-ul-li
+                            ">
+                                            Xem phim
+                                        </li>
+                                        <li class="
+                              header__subnav-container-bars-list-item-sub-ul-li
+                            ">
+                                            Địa điểm vui chơi
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Tham quan</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Địa điểm tham quan
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tour
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Nghệ thuật</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Show ca nhạc
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Sân khấu nghệ thuật
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Thể thao</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Bóng đá
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Di chuyển</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Máy bay
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Ô tô </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tàu thủy </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tàu hỏa </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Combo</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Combo du lịch
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Ẩm thực</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Đồ ăn
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Đồ uống
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
+                        <h3>DANH MỤC DỊCH VỤ</h3>
+                    </div>
+                    <div class="header__subnav-container-check">
+                        <a href="tel: 1890 000" class="d-flex js-phone-click">
+                            <img src="../Content/image/home/icon/Call.svg" alt="">
+                            <h3>1890 000</h3>
+                        </a>
+
+                        <button class="header__subnav-container-check-button js-check-button">
+                            KIỂM TRA ĐƠN HÀNG
+                            <form action="" id="check-product-form"
+                                class="header__subnav-container-check-button-form js-check-form">
+                                <h3>Kiểm tra đơn hàng</h3>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập số điện thoại</label>
+                                    <input name="userPhoneNumber" placeholder="Số điện thoại" type="number"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập email</label>
+                                    <input name="userEmail" placeholder="Email" type="email"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập mã đơn hàng</label>
+                                    <input name="userProductCode" maxlength="10" placeholder="VD: 0123456789" type="text"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="d-flex" style="justify-content: center;">
+                                    <input type="submit" value="Kiểm tra" placeholder="Kiểm tra"
+                                        class="header__subnav-container-check-button-form-handle btn-hover js-submit-product-form">
+                                </div>
+                            </form>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body__container">
+                <!-- hero -->
+                <div class="body__container-banner">
+                    <div class="body__container-banner-inner container">
+                        <div class="body__container-banner-inner-heading">
+                            <h1>Tìm vé máy bay giá rẻ đến <span>Huế</span> ngay!</h1>
+                        </div>
+                        <div class="body__container-banner-inner-selection d-flex">
+                            <button class="selection-button banner-selection-button d-flex active">
+                                <img class="mr10" src="../Content/image/home/icon/Khứ hồi.svg" alt="">
+                                <span>Khứ hồi</span>
+                            </button>
+                            <button class="selection-button banner-selection-button d-flex">
+                                <img class="mr10" src="../Content/image/home/icon/1 chiều.svg" alt="">
+                                <span>Một chiều</span>
+                            </button>
+                        </div>
+
+                        <!-- options -->
+
+                        <!-- khứ hồi -->
+                        <form action="" id="round-trip-validator"
+                            class="round-trip-options form-options active body__container-banner-inner-options banner-get-value">
+                            <div class="body__container-banner-inner-options-reach banner-airport">
+                                <div
+                                    class="body__container-banner-inner-options-reach-from banner-options js-banner-options 1st-options">
+                                    <img src="../Content/image/home/icon/bay.svg" class="mgl-18 mgr-18" alt="">
+                                    <input autocomplete="off" name="StartFrom" type="text" data-type="Chuyến bay từ: "
+                                        placeholder="Hanoi (HAN)" class="banner-airport-value" value="">
+                                    <div class="banner-options-dropdown dropdown-1">
+                                        <ul class="dropdown-list js-dropdown-list1">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div
+                                    class="body__container-banner-inner-options-reach-to banner-options js-banner-options 2nd-options">
+                                    <img src="../Content/image/home/icon/hacanh.svg" alt="" class="mgl-18 mgr-18">
+                                    <input autocomplete="off" name="EndTo" type="text" data-type="Chuyến bay tới: "
+                                        placeholder="Seoul (ICN)" class="banner-airport-value" value="">
+                                    <div class="banner-options-dropdown dropdown-2">
+                                        <ul class="dropdown-list js-dropdown-list2">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- date & custommer-->
+                            <div class="body__container-banner-inner-options-date-row hide-on-tablet hide-on-mobile">
+
+                                <!-- date -->
+                                <div class="body__container-banner-inner-options-date-row-col mr8 hide-on-tablet">
+                                    <div class="banner-options row no-gutters mobile-date-options">
+                                        <div class="col l-6">
+                                            <div class="content">
+                                                <img class="pos-absolute calendar-img"
+                                                    src="../Content/image/home/icon/Calendar.svg" alt="">
+                                                <input id="leaveDate" name="birthday" data-type="Ngày đi: "
+                                                    class="date-range-picker-input startDate" type="text"
+                                                    placeholder="Ngày đi">
+                                                <span class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col l-6 date-range-picker-back" style="text-align: end;">
+                                            <div class="content">
+                                                <img class="pos-absolute calendar-img"
+                                                    src="../Content/image/home/icon/Calendar.svg" alt="">
+                                                <input id="comebackDate" class="date-range-picker-input endDate"
+                                                    data-type="Ngày về: " name="birthday" type="text"
+                                                    placeholder="Ngày về">
+                                                <span class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- customer -->
+                                <div class="body__container-banner-inner-options-date-row-col ml8">
+                                    <div class="row no-gutters hide-on-tablet">
+                                        <div class="col-4">
+                                            <div class="content pos-relative">
+                                                <div class="text">
+                                                    <h3>Người lớn</h3>
+                                                    <span>(Trên 12 tuổi)</span>
+                                                </div>
+                                                <div class="quantity">
+                                                    <input name="Adult" type="number" value="0" data-type="người lớn: "
+                                                        class="quantity-customer">
+                                                    <span class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                    <div class="quantity-options pos-absolute bora-5">
+                                                        <div class="count d-flex">
+                                                            <div class="count-minus">
+                                                                <img src="../Content/image/home/minus.svg" alt=""
+                                                                    class="js-minus-baby">
+                                                            </div>
+                                                            <span
+                                                                class="count-quantity js-value-baby-count"></span>
+                                                            <div class="count-plus">
+                                                                <img src="../Content/image/home/plus.svg" alt=""
+                                                                    class="js-plus-baby">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Trẻ em</h3>
+                                                            <span>(Từ 2 đến 12 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input name="Kid" type="number" value="0" data-type="trẻ em: "
+                                                                class="quantity-customer">
+                                                            <span
+                                                                class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                                <div class="quantity-options pos-absolute bora-5">
+                                                                    <div class="count d-flex">
+                                                                        <div class="count-minus">
+                                                                            <img src="../Content/image/home/minus.svg" alt=""
+                                                                                class="js-minus-baby">
+                                                                        </div>
+                                                                        <span
+                                                                            class="count-quantity js-value-baby-count"></span>
+                                                                        <div class="count-plus">
+                                                                            <img src="../Content/image/home/plus.svg" alt=""
+                                                                                class="js-plus-baby">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-end">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Em bé</h3>
+                                                            <span>(Dưới 2 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity pos-relative">
+                                                            <input type="number" name="Baby" value="0" data-type="em bé: "
+                                                                class="quantity-customer js-value-baby">
+                                                            <span
+                                                                class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                            <div class="quantity-options pos-absolute bora-5">
+                                                                <div class="count d-flex">
+                                                                    <div class="count-minus">
+                                                                        <img src="../Content/image/home/minus.svg" alt=""
+                                                                            class="js-minus-baby">
+                                                                    </div>
+                                                                    <span
+                                                                        class="count-quantity js-value-baby-count"></span>
+                                                                    <div class="count-plus">
+                                                                        <img src="../Content/image/home/plus.svg" alt=""
+                                                                            class="js-plus-baby">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- book for many people -->
+                            <a class="js-open-modal book-many-people" href="#">Đặt vé cho nhiều
+                                người tại đây!</a>
+
+                            <!-- search fly tour -->
+                            <div class="body__container-banner-inner-options-search">
+                                <input type="submit" value="ĐẶT VÉ" id="submit-form-button"
+                                    class="body__container-banner-inner-options-search-link submit-form-button banner-submit-form">
+                            </div>
+                        </form>
+
+                        <!-- 1 chiều -->
+                        <form action="" id="one-way-validator"
+                            class="one-way-options form-options body__container-banner-inner-options banner-get-value">
+                            <!-- 1 chiều -->
+                            <div class="body__container-banner-inner-options-reach banner-airport">
+                                <div
+                                    class="body__container-banner-inner-options-reach-from banner-options js-banner-options 1st-options mgr-8 pos-relative">
+                                    <img src="../Content/image/home/icon/bay.svg" class="mgl-18 mgr-18" alt="">
+                                    <input autocomplete="off" name="StartFrom" type="text" data-type="Chuyến bay từ: "
+                                        placeholder="Hanoi (HAN)" class="banner-airport-value" value="" required>
+                                    <div class="banner-options-dropdown dropdown-1">
+                                        <ul class="dropdown-list js-dropdown-list1">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div
+                                    class="body__container-banner-inner-options-reach-to banner-options js-banner-options 2nd-options mgl-8">
+                                    <img src="../Content/image/home/icon/hacanh.svg" alt="" class="mgl-18 mgr-18">
+                                    <input autocomplete="off" name="EndTo" type="text" data-type="Chuyến bay tới: "
+                                        placeholder="Seoul (ICN)" class="banner-airport-value" value="">
+                                    <div class="banner-options-dropdown dropdown-2">
+                                        <ul class="dropdown-list js-dropdown-list2">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- date & custommer-->
+                            <div class="body__container-banner-inner-options-date-row hide-on-tablet hide-on-mobile">
+
+                                <!-- date -->
+                                <div class="body__container-banner-inner-options-date-row-col hide-on-tablet mr8">
+                                    <div class="banner-options row no-gutters mobile-date-options d-block one-way">
+                                        <div class="col l-12 ">
+                                            <div class="content">
+                                                <img class="pos-absolute calendar-img"
+                                                    src="../Content/image/home/icon/Calendar.svg" alt="">
+                                                <input id="comebackDate" class="date-range-picker-inpu"
+                                                    data-type="Ngày về: " name="birthday" type="text"
+                                                    placeholder="Ngày đi">
+                                                <span class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- customer -->
+                                <div class="body__container-banner-inner-options-date-row-col ml8">
+                                    <div class="row no-gutters hide-on-tablet">
+                                        <div class="col-4">
+                                            <div class="content pos-relative">
+                                                <div class="text">
+                                                    <h3>Người lớn</h3>
+                                                    <span>(Trên 12 tuổi)</span>
+                                                </div>
+                                                <div class="quantity">
+                                                    <input name="Adult" type="number" value="0" data-type="người lớn: "
+                                                        class="quantity-customer">
+                                                    <span class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                    <div class="quantity-options pos-absolute bora-5">
+                                                        <div class="count d-flex">
+                                                            <div class="count-minus">
+                                                                <img src="../Content/image/home/minus.svg" alt=""
+                                                                    class="js-minus-baby">
+                                                            </div>
+                                                            <span
+                                                                class="count-quantity js-value-baby-count"></span>
+                                                            <div class="count-plus">
+                                                                <img src="../Content/image/home/plus.svg" alt=""
+                                                                    class="js-plus-baby">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Trẻ em</h3>
+                                                            <span>(Từ 2 đến 12 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input name="Kid" type="number" value="0" data-type="trẻ em: "
+                                                                class="quantity-customer">
+                                                            <span
+                                                                class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                                <div class="quantity-options pos-absolute bora-5">
+                                                                    <div class="count d-flex">
+                                                                        <div class="count-minus">
+                                                                            <img src="../Content/image/home/minus.svg" alt=""
+                                                                                class="js-minus-baby">
+                                                                        </div>
+                                                                        <span
+                                                                            class="count-quantity js-value-baby-count"></span>
+                                                                        <div class="count-plus">
+                                                                            <img src="../Content/image/home/plus.svg" alt=""
+                                                                                class="js-plus-baby">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-end">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Em bé</h3>
+                                                            <span>(Dưới 2 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity pos-relative">
+                                                            <input type="number" name="Baby" value="0" data-type="em bé: "
+                                                                class="quantity-customer js-value-baby">
+                                                            <span
+                                                                class="icon-Polygon-1 pos-absolute arrown-down-img"></span>
+                                                                <div class="quantity-options pos-absolute bora-5">
+                                                                    <div class="count d-flex">
+                                                                        <div class="count-minus">
+                                                                            <img src="../Content/image/home/minus.svg" alt=""
+                                                                                class="js-minus-baby">
+                                                                        </div>
+                                                                        <span
+                                                                            class="count-quantity js-value-baby-count"></span>
+                                                                        <div class="count-plus">
+                                                                            <img src="../Content/image/home/plus.svg" alt=""
+                                                                                class="js-plus-baby">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- book for many people -->
+                            <a class="js-open-modal book-many-people" href="#">Đặt vé cho nhiều
+                                người tại đây!</a>
+
+                            <!-- search fly tour -->
+                            <div class="body__container-banner-inner-options-search">
+                                <input type="submit" value="ĐẶT VÉ" id="submit-form-button"
+                                    class="body__container-banner-inner-options-search-link submit-form-button banner-submit-form one-way-button">
+                            </div>
+                        </form>
+                        <!-- end options -->
+
+                        <!-- discover the tour -->
+                        <a class="mobile-discover-tour" href="#">
+                            Khám phá chuyến bay của bạn ngay!
+                        </a>
+
+                    </div>
+                </div>
+                <!-- end hero -->
+
+                <!-- process -->
+                <div class="container mt36">
+                    <div id="process" class=" bg-white process padt28 padb58 d-flex justify-content-center">
+
+                    </div>
+                </div>
+                <!-- end process -->
+
+                <!-- date range -->
+                <div class="container mt22 mb22">
+                   <div class="two-date bg-white d-flex justify-content-between ml0 mr0 pos-relative">
+                       <div id="date1" class="date-range">
+
+                       </div>
+                       <div id="date2" class="date-range">
+
+                       </div>
+                       <div class="two-date-radio pos-absolute">
+                            <input type="checkbox" id="date-range-checkbox" name="date-range-checkbox-check">
+                            <label for="date-range-checkbox">Hiển thị giá đầy đủ thuế phí (Giá 1 người lớn)</label>
+                       </div>
+                       
+                   </div>
+                </div>
+                <!-- end date range -->
+
+                <!-- cheapest round trip price -->
+                <div id="round-trip-price" class="container round-trip-price">
+                    <div class="bg-white">
+                        <div class="padt16 padb20">
+                            <h3 class="text-lg-center">Giá vé khứ hồi <span>HÀ NỘI(HAN) - HUẾ(HUI)</span> rẻ nhất dành cho bạn</h3>
+                        </div>
+                        <div class="row ml16 mr16 padb36 justify-content-between">
+                            <div class="col flex-column">
+                                <h4 class="time blue-info-500 mb4 fz-20 lh-24 fw-600 medium">
+                                    07:00
+                                </h4>
+                                <div class="place mb19 fz-14 lh-18">
+                                    <b class="fw-500 medium">Huế</b> <span>(HUI)</span>
+                                </div>
+                                <div class="date blue-info-500 fz-11 lh-14">
+                                    27/02/2022
+                                </div>
+                            </div>
+                            <div class="col flex-column">
+                                <h4 class="time blue-info-500 mb4 fz-20 lh-24 fw-600 medium">
+                                    09:15
+                                </h4>
+                                <div class="place mb19 fz-14 lh-18">
+                                    <b class="fw-500 medium"> Hà Nội</b> <span>(HAN)</span>
+                                </div>
+                                <div class="text fz-14">
+                                    <h5 class="fw-500 medium lh-18 fz-14">Bay thẳng</h5>
+                                    <span class="desc lh-18 blue-info-500">
+                                        2 tiếng 15 phút
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="col flex-column">
+                                <div class="brand">
+                                    <img class="mb8" src="../Content/image/home/VietJet.svg" alt="">
+                                    <p class="mb19 fw-500 medium fz-14 lh-18">VN1376</p>
+                                </div>
+                                <div class="ticket-kind">
+                                    <p>Loại vé: T</p>
+                                </div>
+                            </div>
+                            <div class="col flex-column">
+                                <div>
+                                    <h4 class="mb8 fz-14 lh-18">Số lượng</h4>
+                                </div>
+                                <div class="customer fz-14 lh-18">
+                                    <label for="">Người lớn</label>
+                                    <span class="quantity ml20">(2)</span>
+                                </div>
+    
+                            </div>
+                            <div class="col flex-column">
+                                <div>
+                                    <h4 class="mb8 fz-14" >Hành lý</h4>
+                                </div>
+                                <div class="package d-flex justify-content-between align-items-center mb4">
+                                    <img src="../Content/image/home/package1.svg" alt="">
+                                    <b class="package-weight blue-info-500 fz-14 lh-18 blue-info-500">
+                                        7kg
+                                    </b>
+                                    <p class="package-bring-kind fz-14 lh-18">
+                                        Xách tay
+                                    </p>
+                                </div>
+                                <div class="package d-flex justify-content-between align-items-center">
+                                    <img src="../Content/image/home/package2.svg" alt="">
+                                    <b class="package-weight blue-info-500 fz-14 lh-18 blue-info-500">
+                                        14kg
+                                    </b>
+                                    <p class="package-bring-kind fz-14 lh-18">
+                                        Ký gửi
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col flex-column text-right">
+                                <div>
+                                    <label class="price-label mb8 fz-14" >Giá vé</label>
+                                </div>
+                                <div class="price">
+                                    <span class="fz-14 lh-18">200.000đ</span>
+                                </div>
+                            </div>
+                            <div class="col flex-column text-right">
+                                <div>
+                                    <label class="price-label mb8 fz-14" >Thuế phí</label>
+                                </div>
+                                <div class="price">
+                                    <span class="fz-14 lh-18">21.000đ</span>
+                                </div>
+                            </div>
+                            <div class="col flex-column text-right">
+                                <div>
+                                    <label class="price-label mb8 fz-14" >Tổng cộng</label>
+                                </div>
+                                <div class="price">
+                                    <span class="fz-14 lh-18">221.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basket-price d-flex justify-content-end mr16 ml16">
+                            <div class="basket-total d-flex padb36">
+                                <label for="basketTotal">
+                                    Số tiền bạn phải trả
+                                </label>
+                                <span>221.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- end cheapest round trip price -->
+
+                <!-- Fly info -->
+                <div class="container fly-info mt22 mb22">
+                    <div class="row no-gutters justify-content-between">
+                        <!-- fly way -->
+                        <div class="col-3">
+                            <div class="">
+                                <h3 class="padl20 padt36 padb36">
+                                    Chuyến bay của tôi
+                                </h3>
+                                <!-- chiều đi -->
+                                <div id="direction" class="direction content bg-white padt16 padb22 ">
+                                    <div class="active padl20 fly-way">
+                                        <h3 class="text mb8 fz-18 lh-21">
+                                            Chiều đi
+                                        </h3>
+                                        <div class="road">
+                                            <span class="from mgr-12">
+                                                Hà Nội (HAN)
+                                            </span>
+                                            <img src="../Content/image/home/arrow-right-black.svg" alt="">
+                                            <span class="arrived mgl-12">
+                                                Huế (HUI)
+                                            </span>
+                                        </div>
+                                        <div class="date">
+                                            <span class="day-of-week">
+                                                T4,
+                                            </span>
+                                            <span class="current-day">
+                                                16/03/2022
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- chiều về -->
+                                <div id="awards" class="towards content bg-white padt16 padb22">
+                                    <div class="padl20 fly-way">
+                                        <h3 class="text mb8 fz-18 lh-21">
+                                            Chiều về
+                                        </h3>
+                                        <div class="road">
+                                            <span class="from mgr-12">
+                                                Huế (HUI)
+                                                
+                                            </span>
+                                            <img src="../Content/image/home/arrow-right-grey.svg" alt="">
+                                            <span class="arrived mgl-12">
+                                                Hà Nội (HAN)
+                                            </span>
+                                        </div>
+                                        <div class="date">
+                                            <span class="day-of-week">
+                                                T5,
+                                            </span>
+                                            <span class="current-day">
+                                                17/03/2022
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9">
+                            <div class="warpper">
+                                
+                                <div class="direction load-list-fulcrum">
+                                    <!-- header of the component -->
+                                    <div class="fly-info-heading">
+                                        <div class="row">
+                                            <div class="col flex-column">
+                                                <div class="place">
+                                                    <div class="from">
+                                                        <h3 >
+                                                            Hà Nội
+                                                            <span>(HAN)</span>
+                                                        </h3>
+                                                    </div>
+                                                    <img class="ml12 mr12" src="../Content/image/home/arrow-right-white.svg" alt="">
+                                                    <div class="to">
+                                                        <h3>
+                                                            Huế
+                                                            <span>(HAN)</span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="date d-flex mt8 align-items-center lh-20">
+                                                    <div class="fly-info-date d-flex">
+                                                        <h3 class="mr4">
+                                                            Thứ 4,
+                                                        </h3>
+                                                        <span class="pos-relative">
+                                                            16/03/2022
+                                                        </span>
+                                                    </div>
+                                                    <div class="quantity ml20">
+                                                        <span>
+                                                            1 người lớn
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter d-flex align-items-center mt16">
+                                            <span class="mr16">
+                                                Bộ lọc: 
+                                            </span>
+                                            <div class="">
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Giá/hành khách</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button range">
+                                                            <div class="padt24 padb28 padl16 padr16">
+                                                                <div class="price-range-block">
+                                                                    <h3 class="sliderText">Giá/hành khách <span>(199.000đ - 1.599.000đ)</span></h3>
+                                                                
+                                                                    <div class="pos-relative mt24">
+                                                                        <input type="range" min="199.000" max="1599.000" step="1.000" value="1000.000" data-rangeslider>
+                                                                        <output>1000.000đ</output>
+                                                                        <div class="range-min range-align pos-absolute">
+
+                                                                        </div>
+                                                                        <div class="range-max range-align pos-absolute">
+  
+                                                                        </div>
+  
+                                                                        <span class="range-left position-absolute">
+                                                                          199.000đ
+                                                                        </span>
+                                                                        <span class="range-right position-absolute">
+                                                                          1.599.000đ
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                            
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div ">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Điểm dừng</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-4 col-item">
+                                                                        <h3>
+                                                                            Số điểm dừng
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="filter-stop1" class="filter-stop-straight-ahead" name="filter-stop-place">
+                                                                                <label  for="filter-stop1">Bay thẳng</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="filter-stop2" class="filter-stop-transits" name="filter-stop-place">
+                                                                                <label  for="filter-stop2">1 điểm dừng</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="filter-stop3" class="filter-stop-transits" name="filter-stop-place">
+                                                                                <label  for="filter-stop3">2+ transits</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-4 col-item">
+                                                                        <h3>
+                                                                            Điểm dừng quá cảnh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Đà Nẵng (DAD)</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-4 col-item validate-stop-place-filter">
+                                                                        <h3>
+                                                                            Thời gian quá cảnh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">1h -3h</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">3h - 6h</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Trên 6h</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Thời gian bay</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                         <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Giờ cất cánh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time1" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time1">Buổi sáng sớm <span>(00:00 - 06:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time2"  type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time2">Buổi sáng <span>(06:00 - 12:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time3" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time3">Buổi chiều <span>(12:00 - 18:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time4" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time4">Buổi tối <span>(18:00 - 24:00)</span></label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Giờ hạ cánh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time1" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time1">Buổi sáng sớm <span>(00:00 - 06:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time2"  type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time2">Buổi sáng <span>(06:00 - 12:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time3" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time3">Buổi chiều <span>(12:00 - 18:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time4" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time4">Buổi tối <span>(18:00 - 24:00)</span></label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr48">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Thêm bộ lọc</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Tiện ích
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="" type="checkbox" name="filter-stop-place1">
+                                                                                <label  for="">Hành lý</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place2">
+                                                                                <label  for="">Suất ăn</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Giải trí</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Wifi</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Nguồn sạc/Cổng USB</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Lựa chọn ưu tiên
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Không quá cảnh qua đêm</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Không chọn chuyến bay muộn</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Chỉ làm thủ tục một lần</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item mt36">
+                                                                        <h3>
+                                                                            Hoàn tiền và đổi lịch
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Có thể hoàn lại tiền</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Có thể đổi lịch</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div">
+                                                    <button class="change-way">
+                                                        Đổi chuyến
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- body of component -->
+                                    <div class="fly-info-body pos-relative">
+                                        <ul class="fly-info-title row no-gutters text-center padl20 padr20">
+                                            <li class="title-list col-2">Hãng bay</li>
+                                            <li class="title-list col">Thời gian</li>
+                                            <li class="title-list col-4">Chặng bay</li>
+                                            <li class="title-list col">Thông tin</li>
+                                            <li class="title-list col">Giá vé</li>
+                                            <li class="title-list col">Đặt vé</li>
+                                        </ul>
+                                        <div class="fly-info-loading text-center pos-absolute">  
+                                            <img src="../Content/image/home/load/loading.gif" alt="">
+                                        </div>
+                                        
+                                        <form id="form-list-1" action="" class="fly-info-content fly-info-direction">
+                                            
+                                        </form>
+                                    </div>
+                                    <!-- paging -->
+                                    <div class="fly-info-paging">
+
+                                    </div>
+                                </div>
+                                
+                                <div class="awards load-list-fulcrum mt24">
+                                    <!-- header of the component -->
+                                    <div class="fly-info-heading">
+                                        <div class="row">
+                                            <div class="col flex-column">
+                                                <div class="place">
+                                                    <div class="from">
+                                                        <h3 >
+                                                            Hà Nội
+                                                            <span>(HAN)</span>
+                                                        </h3>
+                                                    </div>
+                                                    <img class="ml12 mr12" src="../Content/image/home/arrow-right-white.svg" alt="">
+                                                    <div class="to">
+                                                        <h3>
+                                                            Huế
+                                                            <span>(HAN)</span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="date d-flex mt8 align-items-center lh-20">
+                                                    <div class="fly-info-date d-flex">
+                                                        <h3 class="mr4">
+                                                            Thứ 4,
+                                                        </h3>
+                                                        <span class="pos-relative">
+                                                            16/03/2022
+                                                        </span>
+                                                    </div>
+                                                    <div class="quantity ml20">
+                                                        <span>
+                                                            1 người lớn
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter d-flex align-items-center mt16">
+                                            <span class="mr16">
+                                                Bộ lọc: 
+                                            </span>
+                                            <div class="">
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Giá/hành khách</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button range">
+                                                            <div class="padt24 padb28 padl16 padr16">
+                                                                <div class="price-range-block">
+                                                                    <h3 class="sliderText">Giá/hành khách <span>(199.000đ - 1.599.000đ)</span></h3>
+                                                                
+                                                                    <div class="pos-relative mt24">
+                                                                        <input type="range" min="199.000" max="1599.000" step="1.000" value="1000.000" data-rangeslider>
+                                                                        <output>1000.000đ</output>
+                                                                        <div class="range-min range-align pos-absolute">
+
+                                                                        </div>
+                                                                        <div class="range-max range-align pos-absolute">
+  
+                                                                        </div>
+  
+                                                                        <span class="range-left position-absolute">
+                                                                          199.000đ
+                                                                        </span>
+                                                                        <span class="range-right position-absolute">
+                                                                          1.599.000đ
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div ">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Điểm dừng</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-4 col-item">
+                                                                        <h3>
+                                                                            Số điểm dừng
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="towards-filter-stop1" class="filter-stop-straight-ahead" name="filter-stop-place">
+                                                                                <label  for="towards-filter-stop1">Bay thẳng</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="towards-filter-stop2" class="filter-stop-transits" name="filter-stop-place">
+                                                                                <label  for="towards-filter-stop2">1 điểm dừng</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" id="towards-filter-stop3" class="filter-stop-transits" name="filter-stop-place">
+                                                                                <label  for="towards-filter-stop3">2+ transits</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-4 col-item">
+                                                                        <h3>
+                                                                            Điểm dừng quá cảnh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Đà Nẵng (DAD)</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-4 col-item validate-stop-place-filter">
+                                                                        <h3>
+                                                                            Thời gian quá cảnh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">1h -3h</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">3h - 6h</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Trên 6h</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr16">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Thời gian bay</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Giờ cất cánh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time1" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time1">Buổi sáng sớm <span>(00:00 - 06:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time2"  type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time2">Buổi sáng <span>(06:00 - 12:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time3" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time3">Buổi chiều <span>(12:00 - 18:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-time4" type="checkbox" name="filter-fly-time">
+                                                                                <label  for="filter-fly-time4">Buổi tối <span>(18:00 - 24:00)</span></label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Giờ hạ cánh
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time1" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time1">Buổi sáng sớm <span>(00:00 - 06:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time2"  type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time2">Buổi sáng <span>(06:00 - 12:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time3" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time3">Buổi chiều <span>(12:00 - 18:00)</span></label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="filter-fly-end-time4" type="checkbox" name="filter-fly-end-time">
+                                                                                <label  for="filter-fly-end-time4">Buổi tối <span>(18:00 - 24:00)</span></label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div mr48">
+                                                    <div class="pos-relative show-option-div">
+                                                        <select  disabled="disabled" name=""  id="">
+                                                            <option disabled selected value="">Thêm bộ lọc</option>
+                                                        </select>
+                                                        <img class="pos-absolute" src="../Content/image/home/icon/arrow-down.svg" alt="">
+                                                        <div class="pos-absolute bg-white z-idx-10 filter-option show-option-button">
+                                                            <div class="padt24 padb24 padl16 padr16">
+                                                                <div class="row">
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Tiện ích
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input id="" type="checkbox" name="filter-stop-place1">
+                                                                                <label  for="">Hành lý</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place2">
+                                                                                <label  for="">Suất ăn</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Giải trí</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Wifi</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place3">
+                                                                                <label  for="">Nguồn sạc/Cổng USB</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item">
+                                                                        <h3>
+                                                                            Lựa chọn ưu tiên
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Không quá cảnh qua đêm</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Không chọn chuyến bay muộn</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed">
+                                                                                <label  for="">Chỉ làm thủ tục một lần</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-6 col-item mt36">
+                                                                        <h3>
+                                                                            Hoàn tiền và đổi lịch
+                                                                        </h3>
+                                                                        <ul class="list">
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Có thể hoàn lại tiền</label>
+                                                                            </li>
+                                                                            <li class="item filter-load-list-ticket">
+                                                                                <input type="checkbox" name="filter-stop-place-exceed-time">
+                                                                                <label  for="">Có thể đổi lịch</label>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="select-div">
+                                                    <button class="change-way">
+                                                        Đổi chuyến
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- body of component -->
+                                    <div class="fly-info-body pos-relative">
+                                        <ul class="fly-info-title row no-gutters text-center padl20 padr20">
+                                            <li class="title-list col-2">Hãng bay</li>
+                                            <li class="title-list col">Thời gian</li>
+                                            <li class="title-list col-4">Chặng bay</li>
+                                            <li class="title-list col">Thông tin</li>
+                                            <li class="title-list col">Giá vé</li>
+                                            <li class="title-list col">Đặt vé</li>
+                                        </ul>
+                                        <div class="fly-info-loading text-center pos-absolute">  
+                                            <img src="../Content/image/home/load/loading.gif" alt="">
+                                        </div>
+    
+                                        <form id="form-list-2" action="" class="fly-info-content fly-info-awards">
+    
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Fly info -->
+
+                <!-- thumbnail -->
+                <div class="body__container-thumbnail container">
+                    <div class="body__container-thumbnail-row row hide-on-mobile">
+                        <div class="body__container-thumbnail-row-col col overflow-hidden">
+                            <img class="scale" src="../Content/image/home/Rectangle 5530.png" alt="">
+                        </div>
+                        <div class="body__container-thumbnail-row-col col overflow-hidden">
+                            <img class="scale" src="../Content/image/home/Rectangle 5531.png" alt="">
+                        </div>
+                        <div class="body__container-thumbnail-row-col col overflow-hidden">
+                            <img class="scale" src="../Content/image/home/Rectangle 5532.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pad-16">
+                        <div class="overflow-hidden-default pos-relative">
+                            <div class="image-slider hide-on-pc hide-on-tablet">
+                                <div class="mobile-Slides">
+                                    <img class="mobile-slides-item scale" src="../Content/image/home/Rectangle 5530.png"
+                                        alt="">
+                                </div>
+                                <div class="mobile-Slides">
+                                    <img class="mobile-slides-item scale" src="../Content/image/home/Rectangle 5531.png"
+                                        alt="">
+                                </div>
+                                <div class="mobile-Slides">
+                                    <img class="mobile-slides-item scale" src="../Content/image/home/Rectangle 5532.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="next-button pos-absolute">
+                                <img src="../Content/image/home/Group 13044.svg" alt="">
+                            </div>
+                            <div class="prev-button pos-absolute">
+                                <img src="../Content/image/home/Group 13044.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end thumbnail -->
+
+                <!-- Bay nội địa -->
+                <div class="fly-inland container padb32">
+                    <div class="padt32 padl28 padr28 padb32 bg-white bora-5">
+                        <h3 class="heading mb16 fz-24">Bay nội địa giá cực rẻ</h3>
+                        <article id="fly-inland">
+
+                        </article>
+                    </div>
+                </div>
+                <!-- end Bay nội địa -->
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__container-row row">
+                    <div class="footer__container-col col">
+                        <span class="icon-Digiticket-Black logo-footer"></span>
+                        <p class="footer__container-display-flex mb0 mt28">
+                            <span class="mr12">E.</span>
+                            <a style="color: #fff" href="#">booking@digiticket.vn</a>
+                        </p>
+                        <p class="footer__container-display-flex">
+                            <span class="mr12">P.</span>
+                            <a href="tel: 1900 252580">1900 252580</a>
+                        </p>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Về digiticket</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">Giới thiệu</li>
+                            <li class="footer__container-col-list-item">
+                                Chính sách bảo mật thông tin
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Cơ chế giải quyết tranh chấp
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Chăm sóc khách hàng</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">
+                                Hướng dẫn đặt hàng
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Hướng dẫn thanh toán
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Chăm sóc khách hàng
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Digi Blog</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">Blog Ẩm thực</li>
+                            <li class="footer__container-col-list-item">Blog Du lịch</li>
+                            <li class="footer__container-col-list-item">Blog Địa điểm</li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col-3">
+                        <h3>Đăng ký nhận khuyến mại</h3>
+                        <div class="footer__container-col-form">
+                            <input placeholder="Nhập email" type="text" class="footer__container-col-email" />
+                            <button class="footer__container-col-button btn-hover">Đăng ký</button>
+                        </div>
+                        <p>
+                            * Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn sẽ được gửi trực tiếp đến email
+                            của bạn
+                        </p>
+                        <div class="d-flex align-items-center footer-social-icon">
+                            <img src="../Content/image/home/Inssta.svg" alt="">
+                            <img class="ml16" src="../Content/image/home/FB.svg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div style="margin-top: 36px" class="footer-clear-fix"></div>
+                <div class="footer__ending container">
+                    <h3>
+                        © 2020 - Bản quyền thuộc CÔNG TY TNHH MỘT THÀNH VIÊN SÀN GIAO DỊCH DIGITICKET
+                    </h3>
+                    <div class="footer__ending-content">
+                        <div class="footer__ending-content-left">
+                            <p>
+                                Giấy chứng nhận Đăng Ký Kinh Doanh số 0109287103, cấp ngày 30/07/2020 tại Sở Kế hoạch
+                                Đầu tư Hà Nội
+                            </p>
+                            <p>
+                                Địa chỉ: Số 34 Hàng Bè, Phường Hàng Bạc, Quận Hoàn Kiếm, Thành phố Hà Nội
+                            </p>
+                        </div>
+                        <div class="footer__ending-content-right">
+                            <img src="../Content/image/home/logo.svg" alt="" />
+                            <img src="../Content/image/home/Frame 671 1.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- modal -->
+         <div class="modal js-modal">
+            <div class="modal__overlay">
+
+            </div>
+            <div class="modal__body js-modal-body">
+                <div class="container__book-info grid wide bora-10">
+                    <div class="heading">
+                        <div class="leading">
+                            <h3>NHẬP THÔNG TIN ĐẶT VÉ</h3>
+                            <p>Vui lòng để lại thông tin, chúng tôi sẽ hỗ trợ bạn tìm kiếm chuyến bay phù hợp nhất!</p>
+                        </div>
+                        <div class="close">
+                            <img class="js-close-modal" src="../Content/image/home/x.svg" alt="">
+                        </div>
+                    </div>
+                    <!-- hero -->
+                    <div class="body__container-banner mobile-banner-container h-auto">
+                        <div class="body__container-banner-inner h-auto grid wide pad-top-0">
+
+                            <div class="body__container-banner-inner-selection modal-selection">
+                                <button class="selection-button active modal-selection-button">Khứ hồi</button>
+                                <button class="selection-button modal-selection-button one-way">Một chiều</button>
+                            </div>
+
+                            <!-- options -->
+
+                            <!-- modal khứ hồi -->
+                            <form action="" id="modal__round-trip-form" class="modal-form active">
+                                <div class="body__container-banner-inner-options pad-0">
+                                    <!-- reach -->
+                                    <div class="body__container-banner-inner-options-reach active modal-airport">
+                                        <div
+                                            class="body__container-banner-inner-options-reach-from banner-options js-banner-options">
+                                            <img src="../Content/image/home/From.svg" class="mgl-18 mgr-18" alt="">
+                                            <input autocomplete="off" name="startAt" data-type="Chuyến bay từ: " type="text" placeholder="Hanoi (HAN)" class="form-value banner-airport-value" value="">
+                                            <div class="banner-options-dropdown dropdown-1">
+                                                <ul class="dropdown-list js-dropdown-list1">
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="body__container-banner-inner-options-reach-to banner-options js-banner-options">
+                                            <img src="../Content/image/home/To.svg" alt="" class="mgl-18 mgr-18">
+                                            <input autocomplete="off" name="endAt" data-type="Chuyến bay đến: " type="text" placeholder="Seoul (ICN)" class="form-value banner-airport-value">
+                                            <div class="banner-options-dropdown dropdown-2">
+                                                <ul class="dropdown-list js-dropdown-list2">
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- date & custommer-->
+                                    <div class="body__container-banner-inner-options-date-row mgb-28">
+
+                                        <!-- date -->
+                                        <div class="body__container-banner-inner-options-date-row-col mgr-15">
+                                            <div class="banner-options row no-gutters mobile-date-options">
+                                                <div class="col l-6">
+                                                    <div class="content">
+                                                        <i class="bi bi-calendar-event"></i>
+                                                        <input name="birthday" data-type="Ngày đi: " class="modal-calendar-start date-range-picker-leave"
+                                                            type="text" placeholder="Ngày đi">
+                                                        <i class="bi bi-chevron-compact-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-6 date-range-picker-back" style="text-align: end;">
+                                                    <div class="content">
+                                                        <i class="bi bi-calendar-event"></i>
+                                                        <input class="modal-calendar-end date-range-picker-back" data-type="Ngày về: " name="birthday"
+                                                            type="text" placeholder="Ngày về">
+                                                        <i class="bi bi-chevron-compact-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- custommer -->
+                                        <div class="body__container-banner-inner-options-date-row-col">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Người lớn</h3>
+                                                            <span>(Trên 12 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input name="adult" data-type="Người lớn: " value="0" type="text"
+                                                                class="quantity-customer">
+                                                            <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                        </div>
+                                                        <div class="validate text-error d-none not-insert">
+                                                            <p>Bạn chưa nhập số lượng</p>
+                                                        </div>
+                                                        <div class="validate text-error d-none not-0">
+                                                            <p>Số lượng không được dưới 1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-7">
+                                                            <div class="content pos-relative">
+                                                                <div class="text">
+                                                                    <h3>Trẻ em</h3>
+                                                                    <span>(Từ 2 đến 12 tuổi)</span>
+                                                                </div>
+                                                                <div class="quantity">
+                                                                    <input name="children" value="0" data-type="Trẻ em: " type="text"
+                                                                        class="quantity-customer">
+                                                                    <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                                </div>
+                                                                <div class="validate text-error d-none not-insert">
+                                                                    <p>Bạn chưa nhập số lượng</p>
+                                                                </div>
+                                                                <div class="validate text-error d-none not-0">
+                                                                    <p>Số lượng không được dưới 1</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5">
+                                                            <div class="content pos-relative">
+                                                                <div class="text">
+                                                                    <h3>Em bé</h3>
+                                                                    <span>(Dưới 2 tuổi)</span>
+                                                                </div>
+                                                                <div class="quantity pos-relative">
+                                                                    <input data-type="Em bé: " value="0" name="baby" type="text"
+                                                                        class="quantity-customer js-value-baby">
+                                                                    <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                                    <div
+                                                                        class="quantity-options pos-absolute bora-5 clearfix">
+                                                                        <div class="count d-flex">
+                                                                            <div class="count-minus">
+                                                                                <img src="../Content/image/home/minus.svg" alt=""
+                                                                                    class="js-minus-baby">
+                                                                            </div>
+                                                                            <input type="number" value=""
+                                                                                class="count-quantity js-value-baby-count">
+                                                                            <div class="count-plus">
+                                                                                <img src="../Content/image/home/plus.svg" alt=""
+                                                                                    class="js-plus-baby">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- upload file -->
+                                    <div class="upload-file d-flex justify-content-between">
+                                        <div class="upload-file-text">
+                                            <h3>Vui lòng đính kèm file thông tin chi tiết khách hàng (word, excel).</h3>
+                                            <p>Thông tin chi tiết bao gồm: Họ tên (đầy đủ theo CMND/Hộ chiếu), giới
+                                                tính,
+                                                ngày tháng năm sinh, khối lượng hành lý mang theo.</p>
+                                        </div>
+
+                                        <div class="upload-file-input">
+                                            <input type="file" hidden id="banner-inner-options-upload-file">
+                                            <label for="banner-inner-options-upload-file"
+                                                class="upload-file-label d-flex">
+                                                <i class="bi bi-cloud-arrow-up"></i>
+                                                <p>Tải file</p>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <!-- booking infomation -->
+                                    <div class="booking-infomation">
+                                        <div class="booking-infomation-text">
+                                            <h3>Thông tin người đặt vé</h3>
+                                            <p>Digiticket sẽ thông báo kết quả theo thông tin liên hệ người đặt vé</p>
+                                        </div>
+
+                                        <div class="booking-infomation-fill">
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-person"></i>
+                                                <input name="customerName" data-type="Tên khách hàng: " type="text" class="booking-infomation-input"
+                                                    placeholder="Họ và tên">
+                                            </div>
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-envelope"></i>
+                                                <input name="customerEmail" data-type="Email: " type="email"
+                                                    class="booking-infomation-input" placeholder="Email">
+                                            </div>
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-telephone"></i>
+                                                <input name="customerPhone" data-type="Điện thoại: " type="number"
+                                                    class="booking-infomation-input" placeholder="SĐT">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- checkbox request -->
+                                    <div class="request">
+                                        <h3>Các yêu cầu đặc biệt</h3>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="cheapTicket" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn vé giá rẻ</p>
+                                        </div>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="flySoon" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn những chuyến cất cánh sớm nhất</p>
+                                        </div>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="noWait" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn những chuyến bay thẳng, ít chặng nghỉ</p>
+                                        </div>
+
+                                        <div class="request-text">
+                                            <input name="anotherRequest" data-type="Yêu cầu thêm: " type="text" placeholder="Nhập thêm yêu cầu khác của bạn">
+                                        </div>
+                                    </div>
+
+                                    <!-- Book ticket -->
+                                    <div class="book-ticket">
+                                        <button class="selection-button" type="submit">
+                                            Đặt vé
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <!-- modal 1 chiều -->
+                            <form action="" id="modal__one-way-form" class="modal-form">
+                                <div class="body__container-banner-inner-options pad-0">
+                                    <!-- 1 chiều -->
+                                    <div class="body__container-banner-inner-options-reach modal-airport">
+                                        <div
+                                            class="body__container-banner-inner-options-reach-from banner-options js-banner-options mg-0">
+                                            <img src="../Content/image/home/From.svg" class="mgl-18 mgr-18" alt="">
+                                            <input autocomplete="off" name="startAt" data-type="Chuyến bay từ: " type="text" placeholder="Hanoi (HAN)" class=" banner-airport-value form-value" value="">
+                                            <div class="banner-options-dropdown dropdown-1">
+                                                <ul class="dropdown-list js-dropdown-list1">
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- date & custommer-->
+                                    <div class="body__container-banner-inner-options-date-row mgb-28">
+
+                                        <!-- date -->
+                                        <div class="body__container-banner-inner-options-date-row-col mgr-15">
+                                            <div
+                                                class="banner-options row no-gutters mobile-date-options modal-config d-block">
+                                                <div class="col l-12 ">
+                                                    <div class="content">
+                                                        <i class="bi bi-calendar-event"></i>
+                                                        <input name="birthday" data-type="Ngày đi: " class="date-range-picker-leave"
+                                                            type="text" placeholder="Ngày đi">
+                                                        <i class="bi bi-chevron-compact-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- custommer -->
+                                        <div class="body__container-banner-inner-options-date-row-col">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="content pos-relative">
+                                                        <div class="text">
+                                                            <h3>Người lớn</h3>
+                                                            <span>(Trên 12 tuổi)</span>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input name="adult" value="0" data-type="Người lớn: " type="number"
+                                                                class="quantity-customer">
+                                                            <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-7">
+                                                            <div class="content pos-relative">
+                                                                <div class="text">
+                                                                    <h3>Trẻ em</h3>
+                                                                    <span>(Từ 2 đến 12 tuổi)</span>
+                                                                </div>
+                                                                <div class="quantity">
+                                                                    <input name="children" value="0" data-type="Trẻ em: " type="number"
+                                                                        class="quantity-customer">
+                                                                    <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5">
+                                                            <div class="content pos-relative">
+                                                                <div class="text">
+                                                                    <h3>Em bé</h3>
+                                                                    <span>(Dưới 2 tuổi)</span>
+                                                                </div>
+                                                                <div class="quantity pos-relative">
+                                                                    <input name="baby" value="0" data-type="Em bé: " type="number"
+                                                                        class="quantity-customer js-value-baby">
+                                                                    <img src="../Content/image/home/Polygon 1.svg" alt="">
+                                                                    <div
+                                                                        class="quantity-options pos-absolute bora-5 clearfix">
+                                                                        <div class="count d-flex">
+                                                                            <div class="count-minus">
+                                                                                <img src="../Content/image/home/minus.svg" alt=""
+                                                                                    class="js-minus-baby">
+                                                                            </div>
+                                                                            <input type="number" value=""
+                                                                                class="count-quantity js-value-baby-count">
+                                                                            <div class="count-plus">
+                                                                                <img src="../Content/image/home/plus.svg" alt=""
+                                                                                    class="js-plus-baby">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- upload file -->
+                                    <div class="upload-file d-flex justify-content-between">
+                                        <div class="upload-file-text">
+                                            <h3>Vui lòng đính kèm file thông tin chi tiết khách hàng (word, excel).</h3>
+                                            <p>Thông tin chi tiết bao gồm: Họ tên (đầy đủ theo CMND/Hộ chiếu), giới
+                                                tính,
+                                                ngày tháng năm sinh, khối lượng hành lý mang theo.</p>
+                                        </div>
+
+                                        <div class="upload-file-input">
+                                            <input type="file" hidden id="banner-inner-options-upload-file">
+                                            <label for="banner-inner-options-upload-file"
+                                                class="upload-file-label d-flex">
+                                                <i class="bi bi-cloud-arrow-up"></i>
+                                                <p>Tải file</p>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <!-- booking infomation -->
+                                    <div class="booking-infomation">
+                                        <div class="booking-infomation-text">
+                                            <h3>Thông tin người đặt vé</h3>
+                                            <p>Digiticket sẽ thông báo kết quả theo thông tin liên hệ người đặt vé</p>
+                                        </div>
+
+                                        <div class="booking-infomation-fill">
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-person"></i>
+                                                <input name="customerName" data-type="Tên khách hàng: " type="text" class="booking-infomation-input"
+                                                    placeholder="Họ và tên">
+                                            </div>
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-envelope"></i>
+                                                <input name="customerEmail" data-type="Email: " type="text" class="booking-infomation-input" placeholder="Email">
+                                            </div>
+                                            <div class="booking-infomation-wrap">
+                                                <i class="bi bi-telephone"></i>
+                                                <input name="customerPhone" data-type="Điện thoại: " type="number" maxlength="10" class="booking-infomation-input" placeholder="SĐT">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- checkbox request -->
+                                    <div id="request-topics" class="request">
+                                        <h3>Các yêu cầu đặc biệt</h3>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="cheapTicket" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn vé giá rẻ</p>
+                                        </div>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="flySoon" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn những chuyến cất cánh sớm nhất</p>
+                                        </div>
+                                        <div class="request-wrap">
+                                            <input name="topic" value="noWait" type="checkbox" class="request-checkbox">
+                                            <p>Ưu tiên chọn những chuyến bay thẳng, ít chặng nghỉ</p>
+                                        </div>
+
+                                        <div class="request-text">
+                                            <input name="anotherRequest" data-type="Yêu cầu thêm: " type="text" placeholder="Nhập thêm yêu cầu khác của bạn">
+                                        </div>
+                                    </div>
+
+                                    <!-- Book ticket -->
+                                    <div class="book-ticket">
+                                        <button class="selection-button" type="submit">
+                                            Đặt vé
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal ticket-info-modal">
+            <div class="modal__overlay">
+
+            </div>
+            <div class="modal__body js-modal-body">
+                <div class="ticket-info-condition">
+                    <h3>Điều kiện vé</h3>
+                    <div class="package-handle pad12 ticket-modal-border-btm">
+                        <h3 class="bg-white pad-0">Hành lý xách tay tổng 07kg gồm</h3>
+                        <ul style="list-style-type: dist;" class="list">
+                            <li class="item mt4">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>1 kiện hành lý xách tay tối đa 07kg (56x36x23cm)</p>
+                            </li>
+                            <li class="item">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>1 vật dụng nhỏ như máy tính, cặp balo, ... (nếu có) (40x30x10cm)</p>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="package-sign pad12 ticket-modal-border-btm">
+                        <h3  class="bg-white pad-0">Hành lý ký gửi</h3>
+                        <ul class="list">
+                            <li class="item mt4">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>consectetur adipiscing elit</p>
+                                </li>
+                            <li class="item">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>
+                                    consectetur adipiscing elit
+                                </p>
+                               </li>
+                        </ul>
+                    </div>
+                    <div class="change-ticket pad12">
+                        <h3 class="bg-white pad-0">Đổi vé (đổi hành trình, ngày, giờ)</h3>
+                        <ul class="list">
+                            <li class="item mt4">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                
+                            </li>
+                            <li class="item">
+                                <span class="icon-Ellipse-347"></span>
+                                <p>
+                                    consectetur adipiscing elit
+                                </p>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- scroll to top -->
+        <div class="container position-fixed scroll-top-behavior z-idx-10000" >
+            <i class="bi bi-arrow-bar-up fz-20 scroll-top-icon"></i>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="../Content/plugin/jquery/jquery.js"></script>
+<script src="../Content/plugin/rangeslider.js-develop/dist/rangeslider.js"></script>
+<!-- <script src="../Content/plugin/Price-Range-Slider-jQuery-UI/price_range_script.js"></script> -->
+<!-- <script src="../Content/plugin/jquery-ui-1.13.1.custom/jquery-ui.min.js"></script> -->
+<script src="../Content/plugin/daterangepicker-master/moment.min.js"></script>
+<script src="../Content/js/common/common.js"></script>
+<script src="../Content/js/common-pages/home.js"></script>
+<!-- validate -->
+<script src="../Content/plugin/validate/jquery.validate.min.js"></script> 
+<!-- end validate -->
+<script src="../Content/plugin/bootstrap-4.6.1-dist/js/bootstrap.js"></script>
+<!-- datepicker -->
+<script src="../Content/plugin/daterangepicker-master/daterangepicker.js"></script>
+<script src="../Content/plugin/datepicker/js/lunar.js"></script>
+<script src="../Content/plugin/datepicker/js/jquery.daterangepicker.min.js"></script>
+<!-- end datepicker -->
+<script src="../Content/plugin/datepicker/js/custom.js"></script>
+<script src="../Content/plugin/daterangepicker-master/config.js"></script> 
+<script src="../Content/plugin/validate/validate.js"></script>
+</html>

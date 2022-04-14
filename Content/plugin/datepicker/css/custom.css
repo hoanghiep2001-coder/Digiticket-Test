@@ -1,0 +1,180 @@
+.container-daterange {margin:30px auto; background-color:#fff;}
+.container-daterange span {width:30px; display:block;}
+.container-daterange input {width:calc((100% - 30px)/2);}
+
+.date-picker-wrapper {z-index: 999;font-family: Arial;background: #fff;box-shadow: none;}
+.date-picker-wrapper .drp_top-bar .apply-btn {right: 13px;bottom: 11px;top: unset;background: none;border: none;color: #FFA26B;font-size: 16px;}
+.date-picker-wrapper .drp_top-bar .apply-btn.disabled {border: none;color: #FFA26B;font-size: 16px;}
+.date-picker-wrapper .drp_top-bar {padding:0 16px;position: static; height:25px; line-height:25px; background-color: #ECECEC; border-radius:5px 5px 0 0; display:none;}
+.date-picker-wrapper .drp_top-bar .default-top {display: none;}
+.date-picker-wrapper .drp_top-bar.normal .normal-top {display: none;}
+.date-picker-wrapper.no-shortcuts {padding:0;z-index: 999;border-radius: 5px;border: none;}
+.date-picker-wrapper .month-wrapper {border: none; padding:0}
+.date-picker-wrapper .month-wrapper table {margin:0 8px;}
+.date-picker-wrapper .month-wrapper table .day.toMonth.valid {height: 65px;width: 80px;color: #000;}
+.date-picker-wrapper .month-wrapper table .day {font-size: 14px;padding: 0;line-height: 40px;margin: 0;width: 80px; height:65px; position:relative; border: 0.5px solid #D6D9DB;}
+.date-picker-wrapper .month-wrapper table .day .lunar-day {display:flex;flex-direction: column-reverse; line-height:12px; font-size:10px; color: var(--grey-400); font-family: var(--fw-meidum); margin-left: 4px;}
+.date-picker-wrapper .month-wrapper table .day .price {display:block;margin-top: 4px; line-height:10px; font-size:13px}
+.date-picker-wrapper .month-wrapper table .day.valid .price{color:#FFCB3E}
+.date-picker-wrapper .first-date-selected,
+.date-picker-wrapper .last-date-selected {background: #000!important; color:#FFCB3E!important}
+.date-picker-wrapper .month-wrapper table .day.toMonth.hovering {background: none; color:#000}
+.date-picker-wrapper .month-wrapper table .day.checked {background: none; color:#FFCB3E}
+.date-picker-wrapper .month-wrapper table .day.real-today {background: #000; color:#FFCB3E!important}
+.date-picker-wrapper .month-wrapper table .day.real-today.checked {background: #000; color:#FFCB3E}
+.date-picker-wrapper .month-wrapper table tr td:last-child .day.valid {}
+.date-picker-wrapper .month-wrapper table td {border:none;}
+.date-picker-wrapper .range-reset {position: absolute;bottom: -34px;left: -8px;height: 25px;line-height: 24px;padding: 0 14px;color: #292D32;border: none;}
+.date-picker-wrapper .month-wrapper table .week-name {height:39px; line-height:39px; background:#000; border:1px solid rgba(0, 0, 0, 0.00); text-transform:capitalize; color:#fff}
+.date-picker-wrapper .month-wrapper table .week-name th {
+    font-size: 13px !important;line-height: 15px !important;color:var(--grey-100);font-weight: 500;font-family: var(--fw-medium);
+}
+.date-picker-wrapper .month-wrapper table .week-name th:last-child {}
+.date-picker-wrapper .month-wrapper table th {font-size: 14px;font-family: Arial;color: #fff;padding:0;}
+.date-picker-wrapper .month-element {font-size: 16px;font-family: Arial;color: #000; height:39px; line-height:39px}
+.date-picker-wrapper table .caption {height:30px}
+.date-picker-wrapper table .caption .next,
+.date-picker-wrapper table .caption .prev {height: 30px;width: 30px;border-radius: 5px;display: inline-block;padding:7px 0; color:#000}
+.date-picker-wrapper .gap{visibility: hidden!important; display:none;}
+.date-picker-wrapper .month-name {text-transform: capitalize; padding:0; color: #000 !important;}
+.date-picker-wrapper .date-range-length-tip {background-color:rgba(255, 203, 62, 0.90)!important; color:#fff!important}
+.date-picker-wrapper .footer {padding:0}
+
+/* .day.toMonth.valid {
+    display: flex;
+    justify-content: center;
+} */
+
+.date-picker-wrapper {
+    font-family: var(--fw-regular);
+}
+
+.date-picker-wrapper.single-date.no-shortcuts.single-month.has-gap:last-child {
+    margin-left: 32px;
+}
+
+.date-picker-wrapper.single-date.no-shortcuts.no-gap.single-month:nth-child(2) {
+    right: 0;
+    left: unset;
+}
+
+.day.toMonth.valid {
+    text-align: center;
+}
+
+.day.toMonth.valid p {
+    font-weight: 500;
+    font-family: var(--fw-medium);
+}
+
+.day.toMonth.invalid h3{
+    color: var(--grey-600);
+}
+
+.day.toMonth h3 {
+    color: var(--grey-900);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: var(--fw-medium);
+}
+
+.day.toMonth.valid.real-today h3 {
+
+    color: var(--yellow-amber-500);
+}
+
+.day.toMonth.valid.real-today p {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--grey-900) !important;
+    font-weight: 500;
+    font-family: var(--fw-medium);
+}
+
+.day.toMonth.valid.real-today {
+    background-color: var(--yellow-amber-300) !important;
+}
+
+.lunar-day {
+    color: var(--grey-400);
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.day.toMonth.valid.real-today.tmp h3 {
+    color: var(--grey-900) !important;
+}
+
+.day.toMonth.valid.real-today.tmp .lunar-day {
+    color:  #fff;
+}
+
+.day.toMonth.valid.tmp.checked.first-date-selected {
+    background-color: var(--grey-900) !important;
+}
+
+.day.toMonth.valid.checked.tmp.first-date-selected div {
+    color: var(--yellow-amber-500);
+
+}
+
+.day.toMonth.valid.tmp.checked.first-date-selected h3 {
+    color: var(--yellow-amber-500)
+}
+
+.custom-title-daterange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 60px
+}
+
+.custom-title-daterange h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.custom-title-daterange h3 span {
+    color: var(--yellow-amber-500)
+}
+
+.custom-title-daterange .month-element {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.custom-date-picker {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-date-picker .price {
+    position: unset !important;
+}
+
+.day.toMonth.valid.real-today h3 {
+
+    color: var(--grey-900)
+}
+
+.day.toMonth.valid.real-today .lunar-day{
+    color : #fff;
+}
+
+.day.toMonth.valid.real-today.tmp.checked.first-date-selected h3,
+.day.toMonth.valid.real-today.tmp.checked.first-date-selected p {
+    color: var(--yellow-amber-500) !important;
+}
+
+.day.toMonth.real-today.invalid {
+    background: unset !important;
+    color: #ccc !important;
+}
+
+.day.toMonth.real-today.invalid .price {
+    color: #ccc !important;
+}
